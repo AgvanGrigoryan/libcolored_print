@@ -11,6 +11,12 @@ My library for colored print in terminal
     cc *.c libcolored_print.a
 ##### OR
     cc *.c -lcolored_print -L<LIB_PATH>
+ - Replace <LIB_PATH> with real path where is .a file
 
+#### Step three
+- Include .h file in your .c files where whoud you like use colored printf functions
 
-- Replace <LIB_PATH> with real path where is .a file
+#### Step Four
+- call the functions that is described in .h
+
+# SUCCESS 🎉
